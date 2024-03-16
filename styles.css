@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #64edbb;;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.company-name {
+    font-size: 32px;
+    margin: 0;
+}
+
+.welcome-message {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.team-section {
+    padding: 20px;
+    background-color: #6c1ab8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Add space below the team section */
+}
+
+
+
+.section-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom:40px;
+    color:#b86e1a;
+}
+
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+    flex: 0 0 calc(20% - 20px);
+    background-color: hwb(137 23% 27%);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add space below each team member */
+}
+
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member-name {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#team-selection {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 8px; /* Adjust the padding as needed */
+}
